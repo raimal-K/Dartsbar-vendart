@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENDART</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="area-logo-header">
+                <a href="#" class="logo">
+                    <img src="./images/logo/VENDART2.PNG">
+                </a>
+            </div>
+            <div class="g-navi-sp">
+                <button class="hamburger-menu" id="js-hamburger-menu">
+                    <span class="hamburger-menu-bar"></span>
+                    <span class="hamburger-menu-bar"></span>
+                    <span class="hamburger-menu-bar"></span>
+                </button>
+            </div>
+            <nav class="nav-header" id="g-nav">
+                <ul class="list-nav-header">
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#specialty">こだわり</a></li>
+                    <li><a href="#menu">お品書き</a></li>
+                    <li><a href="#information">店舗情報</a></li>
+                </ul>
+            </nav>
+            <a class="back-btn" href="#">
+                <div class="btn-sc">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section id="main-visual">
+            <img class="mv-img" id="slideshow" src="./images/mv/Drink.PNG" alt="">
+        </section>
+        <section id="banner">
+            <a href=""><img class="bunner" src="./images/banner/banner.PNG" alt=""></a>
+        </section>
+        <section id="concept">
+            <div class="container">
+                <div class="section-title">
+                    <h2>コンセプト</h2>
+                </div>
+                <div class="concept-box">
+                    <img src="./images/mark/bull.PNG" alt="">
+                    <div class="concept-text">
+                        <h3><span class="large">一投</span>から<span class="large">始</span>まる、<span class="large">新</span>しい<span class="large">出会</span>い。</h3>
+                        <p class="concept-text-small">人と人を、一投でつなぐ。
+                        <br>ダーツは、勝敗を競うだけのゲームではありません。</p>
+                        <p class="concept-text-small">一投をきっかけに会話が生まれ、仲間との距離が縮まり、
+                        <br>何気ない一日が、かけがえのない思い出へと変わっていく。</p>
+                        <p class="concept-text-small"><span class="en">Vendart</span>は、ダーツを通じて人と人が自然につながり、笑顔と交流が広がる場所でありたいと考えています。</p>
+                        <p class="concept-text-small">初めての方も、経験者の方も。
+                        <br>誰もが同じ空間でダーツを楽しみ、新たな出会いや時間を共有できる。</p>
+                        <p class="concept-text-small">その最初の一投が、誰かとの新しいつながりになりますように。</p>
+                        <p class="name en">Darts Bar VENDART</p>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="specialty" class="anchor">
+            <div class="container">
+                <div class="section-title">
+                    <h2>こだわり</h2>
+                </div>
+                <div class="specialty-box">
+                    <div class="specialty sp-one">
+                        <div class="specialty-img sp-item">
+                            <img src="./images/specialty/seat.PNG" class="sp-shop" alt="">
+                            <img src="./images/mark/single.PNG" class="mark">
+                            <span class="sp-text-left">一、チャージ料金なし</span>
+                        </div>
+                        <p class="specialty-text sp-item">当店ではチャージ料金はございません。お一人様<span class="en"> 1 </span>プレイ<span class="en"> 100 </span>円からお楽しみいただけます。※お一人様につき<span class="en"> 1 </span>ドリンク制になります。</p>
+                    </div>
+                    <div class="specialty sp-two">
+                        <div class="specialty-img sp-item">
+                            <img src="./images/specialty/beginner.PNG" class="sp-field" alt="">
+                            <img src="./images/mark/double.PNG" class="mark-right">
+                            <span class="sp-text-right">二、初めてでも安心</span>
+                        </div>
+                        <p class="specialty-text sp-item">ダーツが初めての方でも安心。スタッフがルールや投げ方をわかりやすくご案内いたします。</p>
+                    </div>
+                    <div class="specialty sp-three">
+                        <div class="specialty-img sp-item">
+                            <img src="./images/specialty/seats.PNG" class="sp-shop" alt="">
+                            <img src="./images/mark/triple.PNG" class="mark mark-three">
+                            <span class="sp-text-left">三、貸切・団体対応</span>
+                        </div>
+                        <p class="specialty-text sp-item">広々とした店内で、少人数から団体様まで快適にご利用いただけます。貸切利用も承っております。ご利用の際は、あらかじめご予約をお願いいたします。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="anchor">
+            <div class="container">
+                <div class="section-title">
+                    <h2>お品書き</h2>
+                </div>
+                <div class="menu-btn">
+                    <ul class="filter">
+                        <li class="lineup-tab"><a class="darts-menus darts-rec active" data-filter="darts-rec" href="#">おすすめ</a></li>
+                        <li class="lineup-tab"><a class="darts-menus darts-drinks" data-filter="darts-drinks" href="#">オリジナルカクテル</a></li>
+                        <li class="lineup-tab"><a class="darts-menus darts-fees" data-filter="darts-fees" href="#">料金プラン</a></li>
+                        <li class="lineup-tab"><a class="darts-menus darts-events" data-filter="darts-events" href="#">イベント</a></li>
+                    </ul>
+                </div>
+                <div class="menu-boxes">
+                    <div class="menu-box darts-menu" data-category="darts-rec">
+                        <div class="menu-item">
+                            <img src="./images/menu/Drinks.PNG" alt="">
+                            <div class="menu-text">
+                                <h3>オリジナルカクテル<span class="en">(RED & BLUE)</span></h3>
+                                <p class="menu-text-second">当店でしか味わえない、オリジナルカクテル。<br>見た目の美しさはもちろん、味わいにもこだわったヴェンダート自慢の一杯です。<br>特別な時間をお楽しみください。</p>
+                                <p class="menu-price"><span class="en">￥850</span>(税込)</p>
+                            </div>
+                        </div>
+                        <div class="menu-item menu-item-second">
+                            <img src="./images/menu/beginners.PNG" alt="">
+                            <div class="menu-text">
+                                <h3>初心者歓迎パック🔰</h3>
+                                <p class="menu-text-second">追加料金なしの定額パック！<br>ダーツのルールや投げ方もスタッフが丁寧にサポート！<br>気軽にダーツの楽しさを体験できます。</p>
+                                <p class="menu-price"><span class="en">￥2000</span>(税込)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-box" data-category="darts-drinks">
+                        <div class="menu-item">
+                            <img src="./images/menu/redvenom.PNG" alt="">
+                            <div class="menu-text">
+                                <h3 class="en" style="color: #f00;">RED VENOM</h3>
+                                <p class="menu-text-second">深みのあるベリーの甘酸っぱさと、爽やかなハーブの香りが調和した一杯。<br>見た目も鮮やかで、すっきりとした味わいです。</p>
+                                <p class="menu-price"><span class="en">￥850</span>(税抜)</p>
+                            </div>
+                        </div>
+                        <div class="menu-item menu-item-second">
+                            <img src="./images/menu/blueserpent.PNG" alt="">
+                            <div class="menu-text">
+                                <h3 class="en" style="color: #00f;">BLUE SERPENT</h3>
+                                <p class="menu-text-second">レモンとライムの爽やかな風味が楽しめる、清涼感あふれる一杯。<br>甘さを抑えたすっきりとした味わいで、どなたでも飲みやすいドリンクです。</p>
+                                <p class="menu-price"><span class="en">￥850</span>(税抜)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-box" data-category="darts-fees">
+                        <div class="menu-item">
+                            <img src="./images/menu/beginners.PNG" alt="">
+                            <div class="menu-text">
+                                <h3>初心者プラン🔰</h3>
+                                <p class="menu-text-second">一時間投げ放題+ドリンク一杯付き!<br>延長も可能なので、もっと遊びたくなってもゆっくりお楽しみいただけます。</p>
+                                <p class="menu-note">※ドリンクは二杯目から別料金となります。</p>                                
+                                <p class="menu-price"><span class="en">￥2000</span>(税込)</p>
+                            </div>
+                        </div>
+                        <div class="menu-item menu-item-second">
+                            <img src="./images/menu/standard.PNG" alt="">
+                            <div class="menu-text">
+                                <h3>スタンダートプラン</h3>
+                                <p class="menu-text-second">ドリンク代＋プレイ料金だけ！<br>チャージ料金なしで、気軽にダーツをお楽しみいただけます。お一人様からグループまで、ゆったりとした時間をお過ごしください。</p>
+                                <p class="menu-price"><span class="en">￥750</span>〜(税込)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-box" data-category="darts-events">
+                        <div class="menu-item">
+                            <img src="./images/menu/lesson.PNG" alt="">
+                            <div class="menu-text">
+                                <h3 class="darts-lesson">ダーツレッスンデー</h3>
+                                <p class="menu-text-second">ダーツを始めてみたい方や、上達したい方に向けたレッスンを毎週開催しています。<br>持ち方やフォーム、狙い方など、スッタフがサポートします。</p>
+                                <p class="menu-text-third">・毎週<span style="color: #0f0;">木曜日</span>開催  (20:00~21:00)<br>・所要時間：一時間</p>
+                                <p class="menu-price">参加費：<span class="en">￥2000</span>(税込)</p>
+                            </div>
+                        </div>
+                        <div class="menu-item menu-item-second">
+                            <img src="./images/menu/exchange.PNG" alt="">
+                            <div class="menu-text">
+                                <h3 class="darts-exchange">ダーツイベント交流会</h3>
+                                <p class="menu-text-second">ダーツを通じて、新しい仲間とつながろう!<br>一人でのご参加も大歓迎！みんなで楽しく投げながら交流しましょう。<br>最後は交流した仲間とチームを組み、みんなで楽しく大会を行います。</p>
+                                <p class="menu-text-third">・毎週<span style="color: #eba60a;">日曜日</span>開催  (20:00~21:30)<br>・所要時間：一時間三十分</p>
+                                <p class="menu-price">参加費：<span class="en">￥2500</span>(税込)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="information" class="anchor">
+            <div class="container">
+                <div class="section-title">
+                    <h2>店舗情報</h2>
+                </div>
+                <div class="information-wrapper">
+                    <div class="information-box">
+                        <img src="./images/store.PNG" alt="">
+                        <div class="access-box">
+                            <div class="access-text access-text-top">
+                                <p class="store-name">店舗名</p>
+                                <p class="details shop-name en">VENDART</p>
+                            </div>
+                            <div class="access-text">
+                                <p class="store-name">定休日</p>
+                                <p class="details">火曜日</p>  
+                            </div>
+                            <div class="access-text">
+                                <p class="store-name">電話番号</p>
+                                <p class="details en">000-000-000</p>
+                            </div>
+                            <div class="access-text">
+                                <p class="store-name">営業時間</p>
+                                <p class="details en">16:30～4:30</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="access-place">
+                        <div class="access-text-second">
+                            <p class="store-name">所在地</p>
+                            <div>
+                            <p class="access-adress">東京都練馬区光ヶ丘1-2-3</p>
+                <!--<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99754.40019078534!2d139.6525364428402!3d35.697220554579395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1651112765358!5m2!1sja!2sjp" 
+                width="512" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                            -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-wrapper">
+            <img src="./images/logo/VENDART2.PNG" alt="">
+            <div class="footer-content">
+                <div class="footer-menus">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#concept">コンセプト</a></li>
+                            <li><a href="#specialty">こだわり</a></li>
+                            <li><a href="#menu">お品書き</a></li>
+                            <li><a href="#information">店舗情報</a></li>    
+                        </ul>
+                    </div> 
+                    <div class="footer-menu promise">
+                        <ul>
+                            <li><a href="#">プライバシーポリシー</a></li>                                
+                            <li><a href="#">利用規約</a ></li>
+                        </ul>
+                    </div>               
+                </div>
+            </div>
+        </div>
+        <small class="en">&copy;2026 Darts Bar VENDART</small>
+    </footer>
+</body>
+</html>
