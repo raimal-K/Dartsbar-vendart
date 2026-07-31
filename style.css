@@ -496,8 +496,8 @@ footer small{
         margin: 0 15px;
     }
     .area-logo-header img {
-    height: 60px;
-    margin: 5px 0;
+        height: 60px;
+        margin: 5px 0;
     }
     /* ハンバーガーメニュー */
     .g-navi-sp{
@@ -553,7 +553,6 @@ footer small{
         z-index: 11;
         position: fixed;
         background-color: rgb(56, 56, 56);
-        opacity: 0.6;
         height: 100%;
         width: 100%;
         top: 70px;
