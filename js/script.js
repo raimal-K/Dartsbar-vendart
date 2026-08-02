@@ -8,39 +8,20 @@ $(function () {
   });
 
   // メニュー内のリンクをクリックした時
-$('.list-nav-header li a').on('click', function () {
-
-  if (window.innerWidth <= 599) {
-    $('.hamburger-menu').removeClass('hamburger-menu-open');
-    $('body').removeClass('no-scroll');
-    $('#g-nav').slideUp();
-  }
-
+  $('.list-nav-header li a').on('click', function () {
+    if (window.innerWidth <= 599) {
+      $('.hamburger-menu').removeClass('hamburger-menu-open');
+      $('body').removeClass('no-scroll');
+      $('#g-nav').slideUp();
+    }
+  });
 });
-});
-
-/*$(function() {
-  const images = [
-  './images/mv/Dart.PNG',
-  './images/mv/Drink.PNG',
-  './images/mv/Darts.PNG'
-  ];
-
-  let index = 0;
-   const img = document.getElementById('slideshow');
-
-  setInterval(() => {
-      index = (index + 1) % images.length; //ループ
-      img.src = images[index];
-    }, 3000);
-
-});*/
 
 $(function () {
   const images = [
-    './images/mv/Drink.PNG',
-    './images/mv/Dart.PNG',
-    './images/mv/Darts.PNG'
+    './images/mv/Drink.jpd',
+    './images/mv/Dart.jpg',
+    './images/mv/Darts.jpg'
   ];
 
   let index = 0;

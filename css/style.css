@@ -621,7 +621,7 @@ footer small{
         margin-bottom: 20px;
     }
     .large{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     .concept-text{
         font-size: 9px;
@@ -665,9 +665,15 @@ footer small{
     }
     .mark{
         padding-right: 0;
+        width: 100%;
+        max-width: 430px;
+        height: auto;
     }
     .mark-right{
         padding-left: 0;
+        width: 100%;
+        max-width: 430px;
+        height: auto;
     }
     .sp-three{
         margin-bottom: 0;
@@ -712,11 +718,14 @@ footer small{
         margin-bottom: 24px;
     }
     .menu-item-second{
-    margin-bottom: 0;
+        margin-bottom: 0;
     }
     .menu-text{
         padding: 0;
         flex-basis: 50%;
+    }
+    .menu-text-third{
+       font-size: 0.75rem;
     }
     .menu-item h3{
         font-size: 14px;
