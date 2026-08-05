@@ -19,7 +19,7 @@ $(function () {
 
 $(function () {
   const images = [
-    './images/mv/Drink.jpd',
+    './images/mv/Drink.jpg',
     './images/mv/Dart.jpg',
     './images/mv/Darts.jpg'
   ];
