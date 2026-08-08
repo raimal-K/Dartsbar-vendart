@@ -465,28 +465,7 @@ footer small{
     display: block;
     text-align: center;
 }
-
-
-@media screen and (max-width:599px) {
-    /* 共通 */
-      #concept,
-      #specialty,
-      #menu,
-      #information{
-        scroll-margin-top: 30px;
-    }
-    .container{
-        margin: 0 15px;
-        overflow-x: hidden;
-    }
-    .section-title{
-        margin-bottom: 40px;
-        font-size: 1.25rem;
-    }
-    .anchor{
-        padding-top: 70px;
-        margin-top: -70px;
-    }
+@media screen and (max-width:1009px) {
     /* nav */
     header{
         background-color: #202020;
@@ -594,6 +573,50 @@ footer small{
         height: 24px;
         transform-origin: 50% 0px;
     }
+
+    .menu-btn ul {
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .menu-btn ul li {
+        flex-basis: 48%;
+        text-align: center;
+        margin: 0 auto 15px;
+    }
+    .menu-btn ul li:nth-child(2),
+    .menu-btn ul li:last-child{
+        margin-right: 0;
+    } 
+    .menu-btn ul li:nth-child(3),
+    .menu-btn ul li:last-child{
+        margin-bottom: 0;
+    }
+    .menu-btn ul li a {
+        line-height: 35px;
+    }
+
+}
+
+@media screen and (max-width:599px) {
+    /* 共通 */
+      #concept,
+      #specialty,
+      #menu,
+      #information{
+        scroll-margin-top: 30px;
+    }
+    .container{
+        margin: 0 15px;
+        overflow-x: hidden;
+    }
+    .section-title{
+        margin-bottom: 40px;
+        font-size: 1.25rem;
+    }
+    .anchor{
+        padding-top: 70px;
+        margin-top: -70px;
+    }
     /* main-visial */
     #main-visual{
         padding-top: 70px;
@@ -681,26 +704,6 @@ footer small{
     /* menues */
     #menu{
         margin-bottom: 40px;
-    }
-    .menu-btn ul {
-        flex-wrap: wrap;
-        font-size: 14px;
-    }
-    .menu-btn ul li {
-        flex-basis: 48%;
-        text-align: center;
-        margin: 0 auto 15px;
-    }
-    .menu-btn ul li:nth-child(2),
-    .menu-btn ul li:last-child{
-        margin-right: 0;
-    } 
-    .menu-btn ul li:nth-child(3),
-    .menu-btn ul li:last-child{
-        margin-bottom: 0;
-    }
-    .menu-btn ul li a {
-        line-height: 35px;
     }
     .menu-tea{
         margin: 0;
